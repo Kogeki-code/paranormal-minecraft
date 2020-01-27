@@ -1,0 +1,17 @@
+prefix: '&7[Paranormal]'
+err_noPermission: none
+blocked:
+- /help
+- /hey
+- /?
+- /plugins
+- /bukkit:plugins
+- /pl
+- /bukkit:pl
+- /bukkit:version
+- /bukkit:help
+- /bukkit:ver
+- /bukkit:reload
+- /bukkit:about
+
+

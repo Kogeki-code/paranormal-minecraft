@@ -1,0 +1,89 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - modifyworld.*
+  Admin:
+    permissions:
+    - '*'
+  Developer:
+    permissions:
+    - '*'
+  Mod:
+    permissions:
+    - OpenInv.silent
+    - OpenInv.anychest
+    - OpenInv.crossworld
+    - OpenInv.editender
+    - OpenInv.openenderall
+    - OpenInv.openender
+    - OpenInv.editinv
+    - OpenInv.openinv
+    - ab.history
+    - ab.banlist
+    - ab.changereason
+    - ab.check
+    - ab.warns.other
+    - ab.warns.own
+    - ab.warn.undo
+    - ab.warn.notify
+    - ab.warn.exempt
+    - ab.warn.temp
+    - ab.warn.perma
+    - ab.tempmute.notify
+    - ab.tempmute.exempt
+    - ab.mute.undo
+    - ab.mute.notify
+    - ab.mute.exempt
+    - ab.mute.temp
+    - ab.mute.perma
+    - ab.tempban.exempt
+    - ab.tempban.notify
+    - ab.ban.undo
+    - ab.ban.notify
+    - ab.ban.exempt
+    - ab.ban.temp
+    - ab.kick.notify
+    - ab.kick.exempt
+    - ab.kick.use
+    - minecraft.command.kick
+    - minecraft.command.ban
+    - minecraft.command.gamemode
+    - minecraft.command.tp
+    - minecraft.tp
+    - minecraft.gamemode
+  Sup:
+    permissions:
+    - ab.ban.notify
+    - OpenInv.crossworld
+    - OpenInv.openinv
+    - ab.history
+    - ab.check
+    - ab.warns.other
+    - ab.warns.own
+    - ab.warn.undo
+    - ab.warn.notify
+    - ab.warn.temp
+    - ab.tempmute.notify
+    - ab.mute.undo
+    - ab.mute.notify
+    - ab.mute.temp
+    - ab.tempban.notify
+    - ab.ban.notify
+    - ab.kick.notify
+    - ab.kick.use
+    - minecraft.command.kick
+    - minecraft.command.tp
+    - minecraft.tp
+  VIP: {}
+schema-version: 1
+users:
+  kogekiyatija:
+    permissions:
+    - '*'
+  4c6fa198-f40e-42b2-b278-76848496f92f:
+    permissions:
+    - '*'
+    options:
+      name: KogekiYatoka

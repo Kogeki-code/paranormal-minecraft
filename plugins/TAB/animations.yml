@@ -1,0 +1,88 @@
+#usage: %animation:NAME%  or  {animation:NAME}
+animations:
+  MyAnimation1:
+    #in MILLISECONDS
+    change-interval: 100
+    texts:
+      - "&d-&5--------------"
+      - "&5-&d-&5-------------"
+      - "&5--&d-&5------------"
+      - "&5---&d-&5-----------"
+      - "&5----&d-&5----------"
+      - "&5-----&d-&5---------"
+      - "&5------&d-&5--------"
+      - "&5-------&d-&5-------"
+      - "&5--------&d-&5------"
+      - "&5---------&d-&5-----"
+      - "&5----------&d-&5----"
+      - "&5-----------&d-&5---"
+      - "&5------------&d-&5--"
+      - "&5-------------&d-&5-"
+      - "&5--------------&d-"
+      - "&5-------------&d-&5-"
+      - "&5------------&d-&5--"
+      - "&5-----------&d-&5---"
+      - "&5----------&d-&5----"
+      - "&5---------&d-&5-----"
+      - "&5--------&d-&5------"
+      - "&5-------&d-&5-------"
+      - "&5------&d-&5--------"
+      - "&5-----&d-&5---------"
+      - "&5----&d-&5----------"
+      - "&5---&d-&5-----------"
+      - "&5--&d-&5------------"
+      - "&5-&d-&5-------------"
+      - "&d-&5--------------"
+  ServerName:
+    change-interval: 300
+    texts:
+      - "&5&lParanormal"
+      - "&5&n&lParanormal"
+      - "&b&lParanormal"
+      - "&b&l&nParanormal"
+      - "&e&lParanormal"
+      - "&e&n&lParanormal"
+  web:
+    change-interval: 200
+    texts:
+      - "&ediscord.gg/T43Qakm"
+  vote:
+    change-interval: 1000
+    texts:
+      - "&aHave fun!"
+  Welcome:
+    change-interval: 400
+    texts:
+      - "&7&lW_"
+      - "&7&lW_"
+      - "&7&lWe_"
+      - "&7&lWel_"
+      - "&7&lWelc_"
+      - "&7&lWelco_"
+      - "&7&lWelcom_"
+      - "&7&lWelcome_"
+      - "&7&lWelcome_"
+      - "&7&lWelcome_"
+      - "&7&lWelcome_"
+      - "&7&lWelcom_"
+      - "&7&lWelco_"
+      - "&7&lWelc_"
+      - "&7&lWel_"
+      - "&7&lWe_"
+      - "&7&lW_"
+      - "&7&lW_"
+  time:
+    change-interval: 900
+    texts:
+      - "&7Time &b%time%"
+      - "&7> Time &b%time% &7<"
+      - "&7>> Time &b%time% &7<<"
+      - "&7>>> Time &5%time% &7<<<"
+      - "&7Date &5%date%"
+      - "&7> Date &5%date% &7<"
+      - "&7>> Date &5%date% &7<<"
+      - "&7>>> Date &5%date% &7<<<"
+  ping-tps:
+    change-interval: 5000
+    texts:
+      - "&aPing: &2&n%ping%&r &ams"
